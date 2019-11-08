@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  backend:
+    build: ./Docker/Ubuntu/Backend/
+  # frontend:
+    # build: ./Docker/Ubuntu/Frontend/
+  # database:
+    # build: ./Docker/Database/Mysql/
